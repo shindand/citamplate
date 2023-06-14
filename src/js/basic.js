@@ -5,9 +5,9 @@ export function sum(items) {
   }
   return result;
 }
-const obj = {name: 'Маг', health: 90};
+const obj = { name: 'Маг', health: 90 };
 
-export function mag(obj){
+export function mag(obj) {
   if (obj.health < 15) {
     return 'critical';
   }
@@ -20,10 +20,10 @@ export function mag(obj){
 }
 
 const magic = [
-  {name: 'мечник', health: 10},
-  {name: 'маг', health: 100},
-  {name: 'лучник', health: 80},
+  { name: 'мечник', health: 10 },
+  { name: 'маг', health: 100 },
+  { name: 'лучник', health: 80 },
 ];
-export function magicSort(magic){
+export function magicSort(magic) {
   return magic.sort((a, b) => a.health - b.health);
 }
