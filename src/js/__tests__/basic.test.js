@@ -7,8 +7,8 @@ test('should sum', () => {
 });
 
 test('mag', () => {
-  const obj = { name: 'Маг', health: 90 };
-  const result = mag(obj);
+  const obj2 = { name: 'Маг', health: 90 };
+  const result = mag(obj2);
 
   expect(result).toBe('healthy');
 });
