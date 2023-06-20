@@ -20,7 +20,7 @@ export function mag(obj) {
 }
 mag(obj2);
 
-const magic = [
+const magic2 = [
   { name: 'мечник', health: 10 },
   { name: 'маг', health: 100 },
   { name: 'лучник', health: 80 },
@@ -28,3 +28,4 @@ const magic = [
 export function magicSort(magic) {
   return magic.sort((a, b) => a.health - b.health);
 }
+magicSort(magic2);
