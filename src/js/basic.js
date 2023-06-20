@@ -5,7 +5,7 @@ export function sum(items) {
   }
   return result;
 }
-const obj = { name: 'Маг', health: 90 };
+const obj2 = { name: 'Маг', health: 90 };
 
 export function mag(obj) {
   if (obj.health < 15) {
@@ -18,6 +18,7 @@ export function mag(obj) {
     return 'healthy';
   }
 }
+mag(obj2);
 
 const magic = [
   { name: 'мечник', health: 10 },
