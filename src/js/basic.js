@@ -1,15 +1,17 @@
 const obj2 = { name: 'Маг', health: 90 };
 
 export function mag(obj) {
+  let magReturn = '';
   if (obj.health < 15) {
-    return 'critical';
+    magReturn = 'critical';
   }
   if (obj.health > 15 && obj.health < 50) {
-    return 'wounded';
+    magReturn = 'wounded';
   }
   if (obj.health > 50) {
-    return 'healthy';
+    magReturn = 'healthy';
   }
+  return magReturn;
 }
 mag(obj2);
 
