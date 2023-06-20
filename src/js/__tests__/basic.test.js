@@ -1,10 +1,4 @@
-import { sum, mag, magicSort } from '../basic';
-
-test('should sum', () => {
-  const result = sum([1, 2, 3]);
-
-  expect(result).toBe(6);
-});
+import { mag, magicSort } from '../basic';
 
 test('mag', () => {
   const obj2 = { name: 'Маг', health: 90 };

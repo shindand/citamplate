@@ -1,10 +1,3 @@
-export function sum(items) {
-  let result = 0;
-  for (const item of items) {
-    result += item;
-  }
-  return result;
-}
 const obj2 = { name: 'Маг', health: 90 };
 
 export function mag(obj) {
