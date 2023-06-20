@@ -19,11 +19,11 @@ test('magicsort', () => {
     { name: 'лучник', health: 80 },
     { name: 'маг', health: 100 },
   ];
-  const magic = [
+
+  const result = magicSort([
     { name: 'мечник', health: 10 },
     { name: 'маг', health: 100 },
     { name: 'лучник', health: 80 },
-  ];
-  const result = magicSort(magic);
+  ]);
   expect(result).toEqual(magic2);
 });
